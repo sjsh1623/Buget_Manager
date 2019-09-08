@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_overview"
+            android:icon="@drawable/ic_ov"
+            android:title="OverView" />
+        <item
+            android:id="@+id/nav_add"
+            android:icon="@drawable/ic_add"
+            android:title="Add to List" />
+    </group>
+
+    <item android:title="Indivisual">
+        <menu>
+            <item
+                android:id="@+id/nav_joo"
+                android:icon="@drawable/ic_cloud"
+                android:title="주혜지" />
+            <item
+                android:id="@+id/nav_choi"
+                android:icon="@drawable/ic_cloud"
+                android:title="최제현" />
+            <item
+                android:id="@+id/nav_lim"
+                android:icon="@drawable/ic_cloud"
+                android:title="임석현" />
+        </menu>
+    </item>
+</menu>
